@@ -53,9 +53,6 @@ div ul li {
   font-size: 40px;
   font-weight: bold;
 }
-.page:not(:first) {
-  height: calc(100vh - 80px);
-}
 .page1 {
   background-color: aqua;
 }
