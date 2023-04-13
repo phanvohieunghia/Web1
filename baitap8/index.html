@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="main">
-      <form action="" method="POST" class="form" id="form-1">
+      <form action="" method="" class="form" id="form-1">
         <h3 class="heading">Thành viên đăng ký</h3>
 
         <div class="spacer"></div>
@@ -67,6 +67,12 @@
         <button class="form-submit">Đăng ký</button>
       </form>
     </div>
-    <script src=""></script>
+    <script src="./main.js"></script>
+    <script>
+      validator({
+        form: "#form-1",
+        rules: [validator.isRequired("#fullname"), validator.isEmail("#email")],
+      });
+    </script>
   </body>
 </html>
