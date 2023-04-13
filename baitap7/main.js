@@ -10,7 +10,7 @@ function render(number) {
   return x;
 }
 
-function autoIncrease() {
+function add() {
   number++;
   const x = render(number);
   const container = x + resultElement.innerHTML;
